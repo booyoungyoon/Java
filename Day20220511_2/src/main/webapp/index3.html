@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	*{margin:0;padding:0;font-family: "맑은고딕"}
+	#title {
+		background-color: blue; width:1100px; height:100px;	margin:0 400px 0 400px;
+		text-align: center; line-height: 100px
+	}
+		h1{color:white;}
+		nav{
+			background-color: #93DAFF; width:1100px; height:50px; margin:0 400px 0 400px;
+			}
+		ul li{list-style-type:none; float:left; margin:5px; margin-left: 20px; color:white;
+		font-size: 14pt; line-height: 40px;}
+		#background{background-color: #ddd; width:1100px; height:500px; margin:0 400px 0 400px;}
+		#res{text-align: center;}
+		table, th, td  { border:1px solid #666; }
+		table {width:500px; margin:20px auto 0;}
+		th {width:300px;}
+		th,td {padding:5px; }
+		td {text-align:center;}
+		a {color:white; text-decoration: none;}
+		footer{background-color:blue; width:1100px; height:50px; margin:0 400px 0 400px;}
+		footer>p{color:#fff; text-align:center; line-height:45px; font-size:12px;}
+
+</style>
+</head>
+<body>
+	<div id="title"><h1>쇼핑몰 회원관리 ver 1.0</h1></div>
+	<nav>
+	<ul>
+	<li><a href="#" onclick="location.href='index.html'">회원등록</a></li>
+	<li><a href="#" onclick="location.href='index2.html'">회원목록조회/수정</a></li>
+	<li><a href="#" onclick="location.href='index3.html'">회원매출조회</a></li>
+	<li><a href="#" onclick="location.href='index.html'">홈으로</a></li>
+	</ul>
+	</nav>
+	<div id="background">
+	<br><br><div id="res"><h2>회원매출조회</h2></div>
+<table>
+        <tr>
+          <th>회원번호</th>
+          <th>회원성명</th>
+          <th>고객등급</th>
+          <th>매출</th>
+        </tr>
+        <tr>
+          <td>100001</td>
+          <td>김행복</td>
+          <td>VIP</td>
+          <td>8000</td>
+        </tr>
+        <tr>
+          <td>100004</td>
+          <td>최사랑</td>
+          <td>VIP</td>
+          <td>4900</td>
+        </tr>
+        <tr>
+          <td>100003</td>
+          <td>장믿음</td>
+          <td>일반</td>
+          <td>3000</td>
+        </tr>
+        <tr>
+          <td>100002</td>
+          <td>이축복</td>
+          <td>일반</td>
+          <td>2500</td>
+        </tr>
+      </table>
+
+	</div>
+</body>
+</html>
